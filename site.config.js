@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Evelyn Lee",
-    image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.png",
     role: "Data Nerd",
     bio: "pathfinder",
     email: "mpcovstraw@gmail.com",
@@ -40,13 +40,13 @@ const CONFIG = {
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
   naverSearchAdvisor: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
